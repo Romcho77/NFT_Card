@@ -3,7 +3,7 @@ import React from 'react'
 export default function Bot() {
   return (
     <div className='flex flex-col p-[5%] gap-2'>
-        <h2 className='text-white text-start text-2xl font-medium'>
+        <h2 className='text-white text-start text-2xl font-medium hover:text-teal-200'>
             Equilibrium #3429
         </h2>
         <p className='text-[#6A7E9F] text-start text-[20px]'>Our Equilibrium collection promotes balance and calm.</p>
@@ -24,7 +24,7 @@ export default function Bot() {
             <div className="flex justify-center items-center h-[100%] w-[20%] img  rounded-full border-white">
                 <img src="./../assets/images/image-avatar.png" className='h-[60%] w-[60%] border-2 rounded-full' alt="" />
             </div>
-            <p className='text-[#6A7E9F]'>Creation of <span className='text-white'>Jules Wyvern</span></p>
+            <p className='text-[#6A7E9F]'>Creation of <span className='text-white hover:text-teal-300'>Jules Wyvern</span></p>
         </div>
 
     </div>
